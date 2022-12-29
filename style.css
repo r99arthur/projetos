@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-image: url(./emile-perron-xrVDYZRGdw4-unsplash.jpg);
+    background-image: url(https://github.com/r99arthur/portfoil/blob/midias/emile-perron-xrVDYZRGdw4-unsplash.jpg?raw=true);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,10 +111,10 @@ li{
 }
 
 .um{
-    background-image: url(./Captura\ de\ tela\ 2022-11-19\ 022003.png);
+    background-image: url(https://github.com/r99arthur/portfoil/blob/midias/Captura%20de%20tela%202022-11-19%20022003.png?raw=true);
 }
 
 .dois{
-    background-image: url(./Captura\ de\ tela\ liquid.png);
+    background-image: url(https://github.com/r99arthur/portfoil/blob/midias/Captura%20de%20tela%20liquid.png?raw=true);
 }
 
