@@ -201,22 +201,121 @@ li{
     padding: 30px;
 }
 
- footer{
-    background-color: rgb(39 32 20);
-    background-size: cover;
-    width: 100%;
-    height: 100px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: space-around;
-    font-size: 20px;
-    font-family: 'Bebas Neue', sans-serif ;
-    margin: none;
-    padding: none;
+.logofooter {
+    width: 30%;
+    height: auto;
 }
 
+footer {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 0 30px;
+  }
+  
+  @media (width < 620px) {
+    footer {
+      flex-direction: column;
+    }
+  
+    footer.bottom {
+      gap: 16px;
+      flex-direction: column-reverse;
+    }
+  }
+  
+  footer > img {
+    margin-top: 10px;
+  }
+  
+  @media (width >= 620px) {
+    footer {
+      margin: 0 auto;
+      max-width: 600px;
+      padding: 0;
+    }
+  }
+  
+  footer {
+    color: #caa800;
+  }
+
+  .rodape {
+    background-color: #211500;
+  }
+  
+  footer.top {
+    border-bottom: 2px solid #3a4f6a;
+    padding-bottom: 20px;
+    justify-content: center;
+    padding-top: 45px;
+  }
+  
+  footer.bottom {
+    padding: 20px 0;
+    justify-content: space-between;
+  }
+  
+  footer.top .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .links > div {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  footer h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255 236 150);
+  }
+  
+  .legal {
+    font-size: 12px;
+  }
+  
+  .legal > a {
+    margin: 0 4px;
+  }
+  
+  .legal > span {
+    margin-right: 10px;
+  }
+  
+  footer.bottom .links {
+    display: flex;
+    gap: 18px;
+  }
+  
+  footer.bottom .links > a {
+    font-size: 24px;
+  }
+  
+  @media (width < 420px) {
+    footer {
+      text-align: center;
+      align-items: center;
+    }
+  
+    footer.top .links {
+      grid-template-columns: 1fr;
+    }
+  
+    footer.bottom {
+      align-items: center;
+    }
+  
+    .legal > span {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 2px;
+    }
+  }
 .social{
     width: 100%;
     display: flex;
@@ -311,6 +410,3 @@ li{
     color: white;
     font-family: 'Oswald', sans-serif;
 }
-
-
-
