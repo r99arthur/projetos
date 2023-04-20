@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 .hero-container{
     height: 100vh;
     display: flex;
@@ -43,6 +46,9 @@ nav{
     padding: 16px;
     border: 0.1px solid #ffe209;
     box-shadow: 0 4px 8px #ffe629, 0 6px 20px 0 rgba(0,0,0,0.19);
+    position:fixed;
+    top: 2%;
+    left: 25%;
 }
 
 li{
@@ -395,7 +401,6 @@ footer {
 .project-image{
     width: 350px;
     height: auto;
-    position: relative;
     border-radius: 8px;
     right: 20px;
     top: 30px;
